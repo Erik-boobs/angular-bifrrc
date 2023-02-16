@@ -3,20 +3,19 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-  email: String;
-  password: String;
-  
+  email:string; //Captura de email
+  password:string;  //Captura de password
 
-  constructor(){
-    this.email = 'Email';
-    this.password = '';
+  constructor() { //Inicializar los dos atributos
+    this.email = '';
+    this.password = ''
   }
 
-  login(){
-    console.log('Email: '+ this.email);
-    console.log('Password: '+ this.password);
+  login() {  //Función para evento clic
+    console.log('Email: ' + this.email);
+    console.log('Password: ' + this.password);
   }
 }

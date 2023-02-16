@@ -1,0 +1,28 @@
+.form-custom {
+    background-color: #400E32;
+    border-radius: 15px;
+    margin-top: 10%;
+    min-width: 300px;
+    min-height: 250px;
+    max-width: 60%;
+    margin: 0px auto;
+}
+
+.form-custom input {
+
+    width: 100%;
+      background: #F5F5F5;
+      color: black;
+}
+
+.form-custom button {
+    display: block;
+    border-radius: 15px;
+    border: 0px solid;
+    background-color: rgb(177, 163, 228);
+    font-size: large;
+    text-transform: uppercase;
+    padding: 1rem;
+    width: 100%;
+}
+

@@ -1,1 +1,21 @@
-<p>register works!</p>
+<div id="registro" class="register">
+  <form id="form" class="form-custom">
+    <h1>Registrarse</h1>
+    <div id="input1" class="form-floating mb-3">
+      <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com" [(ngModel)]="email"  aria-label="Email" required="required">
+      <label for="floatingInput">Correo Electronico</label>
+    </div>
+    <div id="input2" class="form-floating">
+      <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password" [(ngModel)]="password" aria-label="password" required="required">
+      <label for="floatingPassword">Contraseña</label>
+    </div>
+    <div id="input3" class="form-floating">
+      <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="repeat the password" [(ngModel)]="confirmPassword" aria-label="password" required="required">
+      <label for="floatingPassword">Repite la contraseña</label>
+    </div>
+    <div id="boton" class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-dark" type="submit" (click)="register()">Ingresar</button>
+    </div>
+    <a routerLink="/login"><p>Ya esta registrado, inicie sesión</p></a>
+  </form>
+</div>
