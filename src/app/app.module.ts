@@ -22,9 +22,6 @@ import { IndexComponent } from './components/index/index.component';
     BrowserModule,
     AppRoutingModule, 
     FormsModule,
-    InputTextModule,
-    PasswordModule,
-    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
